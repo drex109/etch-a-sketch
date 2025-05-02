@@ -1,0 +1,24 @@
+* {
+    background-color: gray;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 72em;
+    margin: 1em;
+}
+#grid div{
+    width: 4.5em;
+    height: 4.5em;
+    border: 1px solid black
+}
