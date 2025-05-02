@@ -11,6 +11,13 @@ body {
     align-items: center;
     height: 100vh;
 }
+button {
+    width: 5em;
+    margin: 1em;
+    padding: .5em;
+    background-color: white;
+    border-radius: 1em;
+}
 #grid {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +26,6 @@ body {
 }
 #grid div{
     width: 4.5em;
-    height: 4.5em;
+    aspect-ratio: 1 / 1;
     border: 1px solid black
 }
